@@ -1,0 +1,511 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "7a359ad1-09c9-11e8-bc70-9c8e993d021d", 
+    "deck_config_uuid": "7a359ad2-09c9-11e8-b540-9c8e993d021d", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "7a359ad2-09c9-11e8-b540-9c8e993d021d", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 10, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 1
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "name": "Spellings KS1Y1", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial Black", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 30, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [
+                "BuildingBlocks", 
+                "NumberPlacement"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bfont": "Arial", 
+                    "bqfmt": "", 
+                    "bsize": 12, 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "to", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "p{?)D$2B-G", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "green"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "is", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Cf]W5}b#&`", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "green"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "on", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e{BD)p6k~*", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "green"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "it", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "y-mS7/Vj0X", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "green"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "in", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "p$voMmi7)^", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "green"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "at", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "FO(s)0H|F,", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "green"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "laO6o3Ftn[", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "green"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ship", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "l/#SpAx`Js", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "orange"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shop", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "NO{9Kt[#!-", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "orange"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shed", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "IYU3}Xf)6^", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "orange"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shin", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "DJ|DXY@fF`", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "orange"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "this", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Ba^$$<_2Qg", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "orange"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "that", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "z?5BucW1dn", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "orange"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "then", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "z77w==yj=;", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "orange"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "them", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Nn;R2)u=-i", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "orange"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "sing", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Om.)mI6o,r", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "orange"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "long", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "p^uk_m~ft-", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "orange"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "bang", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "H17|.d5~]t", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "orange"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "song", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "c%]:ImD%`W", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "orange"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "thing", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "QVlA^^O]i1", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "red"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "wing", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "eX-d[-$e28", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "red"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "fang", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Rh;YIr*nG9", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "red"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shock", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "w?`SQXL#f_", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "red"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shell", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "g5jC,5prUR", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "red"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "fish", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "By]uP[VCD-", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "red"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "thick", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ABmEm#Dfjx", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "red"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "thud", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "il@OBhvb2d", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "red"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "thin", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "K7Z)L-2m)w", 
+            "note_model_uuid": "7a35c1e1-09c9-11e8-bb9c-9c8e993d021d", 
+            "tags": [
+                "red"
+            ]
+        }
+    ]
+}
